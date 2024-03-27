@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    height: 100%;
+    
+}
+body {
+    height: 100%;
+    background-image: url("/assets/fundo-hamburguer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    margin: 20px 0 0 0;
+    font-family:"Montserrat", sans-serif;
+    
+    
+}
+.cabeçalho {  
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    display: flex;
+    gap: 16px;
+}
+
+ li  {
+    padding: 2px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 500;
+    text-shadow: 4px 4px 5px black;
+    color: white;
+    
+}
+ li:hover {
+    color: rgba(15, 15, 15, 0.9); 
+    text-decoration: underline 4px rgba(15, 15, 15, 0.9); 
+         
+}
+
+.imagen_logo{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+main{
+    
+    margin: 50px 80px 80px 80px;
+    width: 50%;
+    
+}
+
+h1{
+    font-size: 62px;
+    text-transform: uppercase; 
+    text-shadow: 4px 4px 5px black;
+    color: white;
+    margin: 0;
+    
+}
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px black;
+    color: white;
+}
+p{
+    letter-spacing: 1px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+
+.box-burguer .imagen_hamburguer{
+    width: 500px;
+    height: 350px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.botao_compra{
+    background-color:white;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgba(15, 15, 15, 0.9); 
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+}
+.botao_compra:hover{
+    background-color: rgba(15, 15, 15, 0.9);
+    color: white;
+}
+
+    
+
