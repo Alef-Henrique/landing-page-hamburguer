@@ -5,7 +5,7 @@ html{
 }
 body {
     height: 100%;
-    background-image: url("/assets/fundo-hamburguer.jpg");
+    background-image: url(../assets/fundo-hamburguer.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
